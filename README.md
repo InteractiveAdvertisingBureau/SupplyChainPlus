@@ -1,33 +1,26 @@
 # IAB Tech Lab Supply Chain Plus API Hash Usage
 
-
 ## Prerequisites:
 
-
-
-1. **Python 3:** Ensure you have Python 3 installed on your machine. You can verify this by running “`python --version`” in the command prompt or terminal. If Python 3 is not installed, download it from [Python.org](https://www.python.org/downloads/). \
+1. **Python 3:** Ensure you have Python 3 installed on your machine. You can verify this by running “`python --version`” in the command prompt or terminal. If Python 3 is not installed, download it from [Python.org](https://www.python.org/downloads/).
 
 2. **Required Libraries:** Make sure you have the `crc32c` and `base64` libraries installed. These are usually included in standard Python installations, but if they are not present, you can install them using ”`pip install crc32c base64`”.
 
-
 ## Running the Code:
 
+1. **Save the Code:** Save the provided Python code (with chunk reading) as a `.py` file. You can name it something like `calculate_crc32c.py`.
+[Download from Github](https://github.com/InteractiveAdvertisingBureau/increasedCrawlFrequency/blob/main/calculate_crc32c.py)
 
+2. **Open Command Prompt or Terminal:** Open a command prompt or terminal window.
 
-1. **Save the Code:** Save the provided Python code (with chunk reading) as a `.py` file. You can name it something like `calculate_crc32c.py`. \
-[Download from Github](https://github.com/InteractiveAdvertisingBureau/increasedCrawlFrequency/blob/main/calculate_crc32c.py) \
+3. **Navigate to File Directory:** Use the `cd` command to navigate to the directory where you saved the Python file.
 
-2. **Open Command Prompt or Terminal:** Open a command prompt or terminal window. \
+4. **Run the Script:** Execute the following command:
+`python calculate_crc32c.py`
 
-3. **Navigate to File Directory:** Use the `cd` command to navigate to the directory where you saved the Python file. \
-
-4. **Run the Script:** Execute the following command: \
-`python calculate_crc32c.py` \
-
-5. **Provide File Path:** The script will prompt you to enter the file path for which you want to calculate the CRC32C checksum. Provide the absolute or relative path to the file. \
+5. **Provide File Path:** The script will prompt you to enter the file path for which you want to calculate the CRC32C checksum. Provide the absolute or relative path to the file.
 
 6. **Get the Result:** After providing the file path, the script will calculate the CRC32C checksum and print the Base64-encoded result.
-
 
 ## Hash Matching:
 
